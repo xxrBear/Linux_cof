@@ -1,28 +1,30 @@
-set nocompatible
 syntax on
-set showmode 
-set showcmd
-set encoding=utf-8
-set t_Co=256
-filetype indent on
 
-set autoindent
+set wrap
+set ruler
+set number
+set showcmd
+set showmode
+set t_Co=256
+
+set hlsearch
+set linebreak
 set tabstop=2
 set expandtab
-set softtabstop=2
-set number
-set cursorline
-set textwidth=80
-set wrap
-set linebreak
-set wrapmargin=2
-set scrolloff=15
-set sidescrolloff=5
-set laststatus=2
-set ruler
-set showmatch
-set hlsearch
 set incsearch
+set showmatch
 set smartcase
-set spell spelllang=en_us
 set visualbell
+set autoindent
+set cursorline
+set nocompatible
+set wrapmargin=2
+set laststatus=2
+set scrolloff=15
+set textwidth=80
+set softtabstop=2
+set encoding=utf-8
+set sidescrolloff=5
+set spell spelllang=en_us
+
+filetype indent on
