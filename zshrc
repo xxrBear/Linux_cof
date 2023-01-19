@@ -11,11 +11,15 @@ plugins=(
     git
     tmux
     pip
+    python
 )
-
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # oh-my-zsh取消自动更新
 DISABLE_AUTO_UPDATE="true"
+
+# oh-my-zsh设置tmux启动
+ZSH_TMUX_AUTOSTART="true"
+
+source $ZSH/oh-my-zsh.sh
