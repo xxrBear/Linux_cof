@@ -1,3 +1,3 @@
-# Unix_cof
+# Mac和Linux的一些配置文件
 
-##  自己linux的一些配置文件
+🍻🍻🍻
